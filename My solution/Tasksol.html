@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Tasksol.css">
+    <title>Task</title>
+</head>
+<body>
+    <div class="box">
+        <header></header>
+        <main class="flexbox">
+            <div class="inner-flex">
+                <img src="cold.png" alt="Thermometer">
+                <p class="image-caption">Celsius to Fahrenheit</p>
+                <p class="image-caption">Conversion</p>
+            </div>
+            <form class="input-conversion">
+                <h1>Temperature</h1>
+                <label>Celsius</label>
+                <input type="number" placeholder="Enter temperature in Celsius" id="celsius">
+                <button type="button" onclick="convertTemperature()">Convert</button>
+                <input type="number" placeholder="Temperature in Fahrenheit" id="fahrenheit">
+                <label>Fahrenheit</label>
+                <p>To convert Celsius to Fahrenheit yourself, use this formula</p>
+                <p>replacing the 'C' with your temperature in</p>
+                <p>Celsius: (C × 9/5) + 32</p>
+            </form>
+        </main>
+    </div>
+    <script src="taskscript.js"></script>
+</body>
+</html>
