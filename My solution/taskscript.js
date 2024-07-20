@@ -1,3 +1,4 @@
+//Function that converts temperature form celsuis to fahrenheit or vice versa upon button click
 function convertTemperature() {
     const celsiusInput = document.getElementById('celsius');
     const fahrenheitInput = document.getElementById('fahrenheit');
